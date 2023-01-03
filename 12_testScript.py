@@ -3,6 +3,8 @@
 Created on Fri Jun 25 19:10:41 2021
 
 @author: grab
+
+simple test script. Run below line-by-line.
 """
 
 exec(open('classes_12.py').read())

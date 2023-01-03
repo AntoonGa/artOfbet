@@ -105,16 +105,16 @@ class user_input_generator():
             time.sleep(0.01)  
         return matchIds, brokerIds, brokers, outcomeList, sport, startime
 
-
+           
+            
+class overseer:
 '''
 #############################This class oversees the whole operation ######################
 ### overseer class controls monitor class in a user-friendly way
 ### overseer classwill control saving data, formatting and commit to stack
 
 
-'''            
-            
-class overseer:
+''' 
     #############################
     ### INTERNAL FUNCTIONS ### 
     # Only used internally or for debugging, user should not have to call these 
@@ -255,10 +255,12 @@ class overseer:
         return    
             
 
-    #############################This class fetches the odds ##########################################    
+
+    class monitor():
+    """    #############################This class fetches the odds ##########################################    
     # monitor class     : superclass owning all the broker/match dependent classes
     # you should never to have to call functions from this class. It handles all the execptions internally
-    class monitor():
+    """
         def __init__(self):            
         #These 3 dictionnaries contain the full information about the matches.
             self.match_list = {}            #matches metadata
@@ -612,10 +614,12 @@ class overseer:
 
 
 
-#############################This class analyses match_data, places bets and stores them ##########################################    
-# inherit the match_data and match_list from the overseer class.
 
 class gambler(overseer):
+"""
+#############################This class analyses match_data, places bets and stores them ##########################################    
+# inherit the match_data and match_list from the overseer class.
+"""
     def __init__(self, class_overseer): 
         time.sleep(.5)
         global randomQueryReponseTime 
