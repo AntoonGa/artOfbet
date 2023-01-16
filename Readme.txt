@@ -1,7 +1,8 @@
 '''
 This project is on hold: brokers are changing their websites too often for me to make a solid scrapping/betting system... :(
+The whole thing is basically a multi-thread state machine.
 
-This code contains the entire pipeline for sync-threaded bet/monitoring of multiple brokers.
+This code contains the pipeline for sync-threaded bet/monitoring of multiple brokers accross multiple matches.
 Everything runs on its own thread (match monitoring, database handling, match gambling).
 URL-related functions (scrapping, betting, tokenId user_id) are placeholder, you will have to code your own (this will depend on which websites/brokers you wish to operate on, their versions).
 GUI is not ready to be shared.
