@@ -1,6 +1,5 @@
 '''
-This project is on hold: brokers are changing their websites too often for me to make a solid scrapping/betting system... :(
-The whole thing is basically a multi-thread state machine.
+Note : This project is on hold: brokers are changing their websites too often for me to make a solid scrapping/betting system... :(
 
 This code contains the pipeline for sync-threaded bet/monitoring of multiple brokers accross multiple matches.
 Everything runs on its own thread (match monitoring, database handling, match gambling).
