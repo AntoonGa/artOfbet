@@ -1,11 +1,17 @@
 '''
-Note : This project is on hold: brokers are changing their websites too often for me to make a solid scrapping/betting system... :(
-
-This code contains the pipeline for sync-threaded bet/monitoring on multiple brokers accross multiple matches.
-Everything runs on its own thread (match monitoring, database handling, match gambling).
-URL-related functions (scrapping, betting, tokenId user_id) are placeholder, you will have to code your own (this will depend on which websites/brokers you wish to operate on, their versions).
-GUI is not ready to be shared.
-99% of the overhead is waiting for URL requests, therefore I coded this code to be userfriendly and readable rather than fast.
+## Project:
+Pipeline for sync-threaded bet/monitoring on multiple brokers accross multiple matches.
+## Features:
+- This code monitors odds on multiple online sport-gambling broker.
+- You can monitor multiple matches on any sports
+- The code will detect and flag arbitrage opportunities accross all brokers.
+- You can enable automatic betting to launch your arbritage bets.
+## Notes:
+Note : This project is on hold: brokers are changing their APIs too often for me to make a solid scrapping/betting system... :(
+- Everything runs on its own thread (match monitoring, database handling, match gambling).
+- URL-related functions (scrapping, betting, tokenId user_id) are placeholder, you will have to code your own (this will depend on which websites/brokers you wish to operate on, their versions).
+- GUI is not ready to be shared.
+- 99% of the overhead is waiting for URL requests, therefore I coded this code to be userfriendly and readable rather than fast.
 
 
 class user_input_generator:  a placeholder for your user_inputs (match lists, match url or anything you'd like) - replace once you know where you wish to gamble.
