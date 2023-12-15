@@ -32,38 +32,4 @@ Current version:
         start/stop monitoring
     gambler:       gets the overseer data and takes care of mining/gambling
     
-    
-Stuff left to do:
-    1- make comments more consistent  !!!!
-    
-    2- rename variables/function more consistently
-    
-    3- add safe try/catch mechanism everywhere
-    
-     i.   add broker dependent inhibitors and kill switches
-     
-     ii.  check if threadkills is properly done
-     
-     iii. 
-     
-    4- add a function that checks if the odds sent to the bet are still equal to the current odds!!!
-    
-    5- add a bankroll management class
-    
-
-Further on:  
-    1- make a GUI integrating the overseer.
-	
-Then:
-    1- make an external class that commits the dictionnaries to a database structure (SQL works fine for what we currently have)
-
-Then:
-    1- code the save data functions to SQL db stack
-    
-    2- code the analysis tools to perform numerical simulation of bankroll
-    
-    3- finish training the neural net to assimilate the outcomes name consistently
-    
-    4- finish training the neural net for optimal betting strategies
-
 '''
